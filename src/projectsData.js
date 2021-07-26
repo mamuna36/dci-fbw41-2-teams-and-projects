@@ -1,0 +1,41 @@
+export const projectData = [
+  {
+    projectTitle: "WirTreffenFreunde",
+    projectImage: "mobile version or logo",
+    summary: "App for friends to find middle point to meet",
+    link: "",
+    frontendRepo: "",
+    backendRepo: "",
+    team: [
+      { name: "Mamuna Anwar", github: "mamuna36", linkedIn: "mamunaanwar" },
+      { name: "Ilona", github: "Ilona", linkedIn: "Ilona" },
+    ],
+  },
+  {
+    projectTitle: "Mindchase-landingPage",
+    projectImage: "mobile version or logo",
+    summary: "jdabjjbifij xxi",
+    link: "",
+    frontendRepo: "",
+    backendRepo: "",
+    team: [{ name: "", github: "", linkedIn: "" }],
+  },
+  {
+    projectTitle: "Mindchase-campus",
+    projectImage: "mobile version or logo",
+    summary: "sjfbsudhknnclmlc",
+    link: "",
+    frontendRepo: "",
+    backendRepo: "",
+    team: [{ name: "", github: "", linkedIn: "" }],
+  },
+  {
+    projectTitle: "E-commerce shop",
+    projectImage: "mobile version or logo",
+    summary: "bbusd cmskisi ksisi",
+    link: "",
+    frontendRepo: "",
+    backendRepo: "",
+    team: [{ name: "", github: "", linkedIn: "" }],
+  },
+];
