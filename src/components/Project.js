@@ -1,5 +1,7 @@
 import React from "react";
 import Person from "./Person";
+import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Project = ({ project }) => {
   return (

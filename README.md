@@ -1,1 +1,1 @@
-List of Teams and projects from FbW41-2 from digital career institute
+List of Teams and projects from FbW41-2 digital career institute
