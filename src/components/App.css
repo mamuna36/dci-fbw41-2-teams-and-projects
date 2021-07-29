@@ -14,13 +14,22 @@
 .person a {
   text-decoration: none;
 }
+/* .person-img-container {
+  width: 100px;
+  height: 100px;
+} */
+.person img {
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+}
 .project-container {
   display: flex;
   flex-direction: column;
-  margin: 20px;
   border: solid 1px rgb(5, 5, 5);
+  margin: 2%;
+  padding: 2%;
   border-radius: 5px;
-  padding: 5px;
   box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
 }
 .project-image-container {

@@ -6,6 +6,9 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 const Person = ({ data }) => {
   return (
     <div className="person">
+      <div class="person-img-container">
+        <img src={data.pic} alt={`image_for_${data.name}`}></img>
+      </div>
       <p>{data.name}</p>
       <div className="contact-details">
         <div>

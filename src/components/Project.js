@@ -1,7 +1,8 @@
 import React from "react";
 import Person from "./Person";
-import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Card from "react-bootstrap/Card";
+import Nav from "react-bootstrap/Nav";
+import Button from "react-bootstrap/Button";
 
 const Project = ({ project }) => {
   return (
