@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dci-fbw41-2-teams-and-projects/static/css/main.0fbc0048.chunk.css",
+    "main.js": "/dci-fbw41-2-teams-and-projects/static/js/main.74d53c45.chunk.js",
+    "main.js.map": "/dci-fbw41-2-teams-and-projects/static/js/main.74d53c45.chunk.js.map",
+    "runtime-main.js": "/dci-fbw41-2-teams-and-projects/static/js/runtime-main.289cb1ce.js",
+    "runtime-main.js.map": "/dci-fbw41-2-teams-and-projects/static/js/runtime-main.289cb1ce.js.map",
+    "static/css/2.081f420c.chunk.css": "/dci-fbw41-2-teams-and-projects/static/css/2.081f420c.chunk.css",
+    "static/js/2.a8d91433.chunk.js": "/dci-fbw41-2-teams-and-projects/static/js/2.a8d91433.chunk.js",
+    "static/js/2.a8d91433.chunk.js.map": "/dci-fbw41-2-teams-and-projects/static/js/2.a8d91433.chunk.js.map",
+    "static/js/3.de4d1b57.chunk.js": "/dci-fbw41-2-teams-and-projects/static/js/3.de4d1b57.chunk.js",
+    "static/js/3.de4d1b57.chunk.js.map": "/dci-fbw41-2-teams-and-projects/static/js/3.de4d1b57.chunk.js.map",
+    "index.html": "/dci-fbw41-2-teams-and-projects/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/dci-fbw41-2-teams-and-projects/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.0fbc0048.chunk.css.map": "/dci-fbw41-2-teams-and-projects/static/css/main.0fbc0048.chunk.css.map",
+    "static/js/2.a8d91433.chunk.js.LICENSE.txt": "/dci-fbw41-2-teams-and-projects/static/js/2.a8d91433.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.289cb1ce.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.a8d91433.chunk.js",
+    "static/css/main.0fbc0048.chunk.css",
+    "static/js/main.74d53c45.chunk.js"
+  ]
+}
