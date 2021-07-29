@@ -3,42 +3,51 @@ import Person from "./Person";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardBody,
+  CardFooter,
+  Badge,
+  Button
+} from "shards-react";
+
 const Project = ({ project }) => {
   return (
-    <div className="project-container">
-      <h2>{project.projectTitle}</h2>
-      <p>Project Summary: {project.summary}</p>
-      <div className="images">
-        <div className="project-image-container">
-          <img
-            src={project.projectImage}
-            alt={`image_for_${project.projectTitle}`}
-          ></img>
+    <Col lg="6" md="12" sm="12" className="mb-4" >
+      <Card small className="card-post card-post--aside card-post--1">
+        <div
+          className="card-post__image"
+          style={{ backgroundImage: `url(${project.projectImage})`, backgroundSize: 'contain' }}
+        >
+          
         </div>
-        <div className="project-image-container">
-          <img
-            src={project.techStack}
-            alt={`image_for_${project.projectTitle}`}
-          ></img>
-        </div>
-      </div>
-
-      <div>
-        <a href={project.link}>{project.projectTitle}</a>
-      </div>
-      <div>
-        <a href={project.frontendRepo}>Frontend Repository</a>
-      </div>
-      <div>
-        <a href={project.backendRepo}>Backend Repository</a>
-      </div>
-      <h3>Team</h3>
-      <div className="team-container">
-        {project.team.map((e) => (
-          <Person data={e} />
-        ))}
-      </div>
-    </div>
+        <CardBody>
+          <h5 className="card-title">
+            <a href="#" className="text-fiord-blue">
+              {project.projectTitle}
+            </a>
+            
+          </h5>
+          <p className="card-text d-inline-block mb-3">{project.summary}</p>
+          <div className="card-post__author d-flex">
+            {project.team.map((member) => {
+              return <Person data={member} />
+            })}
+            
+          </div>
+          <span className="text-muted">{/*post.date*/}</span>
+          <CardFooter className="border-top d-flex">
+                <img src={project.techStack} style={{width: '100%'}} />
+            
+          </CardFooter>
+          
+        </CardBody>
+        
+      </Card>
+    </Col>
   );
 };
 
