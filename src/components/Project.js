@@ -7,11 +7,22 @@ const Project = ({ project }) => {
   return (
     <div className="project-container">
       <h2>{project.projectTitle}</h2>
-      <img
-        src={project.projectImage}
-        alt={`image_for_${project.projectTitle}`}
-      ></img>
-      <p>{project.summary}</p>
+      <p>Project Summary: {project.summary}</p>
+      <div className="images">
+        <div className="project-image-container">
+          <img
+            src={project.projectImage}
+            alt={`image_for_${project.projectTitle}`}
+          ></img>
+        </div>
+        <div className="project-image-container">
+          <img
+            src={project.techStack}
+            alt={`image_for_${project.projectTitle}`}
+          ></img>
+        </div>
+      </div>
+
       <div>
         <a href={project.link}>{project.projectTitle}</a>
       </div>

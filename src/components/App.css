@@ -9,6 +9,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+.person a {
+  text-decoration: none;
 }
 .project-container {
   display: flex;
@@ -19,7 +23,14 @@
   padding: 5px;
   box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, 0.2);
 }
-
+.project-image-container {
+  border: 0.5px gray solid;
+  margin: 5px;
+  width: 300px;
+}
+.project-image-container img {
+  width: 100%;
+}
 .team-container {
   display: flex;
   justify-content: center;
@@ -33,5 +44,11 @@
 .contact-details {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.images {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
   align-items: center;
 }

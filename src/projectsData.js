@@ -1,14 +1,15 @@
 export const projectData = [
   {
     projectTitle: "WirTreffenFreunde",
-    projectImage: "mobile version or logo",
+    projectImage: "images/WTF-screenshot.png",
+    techStack: "images/WTF_techStack.png",
     summary: "App for friends to find middle point to meet",
     link: "",
-    frontendRepo: "",
-    backendRepo: "",
+    frontendRepo: "https://github.com/wirTreffenFreunde/wtf-frontend",
+    backendRepo: "https://github.com/wirTreffenFreunde/wtf-backend",
     team: [
       {
-        name: "Mamuna Anwar",
+        name: "Dr. Mamuna Anwar",
         github: "http://github.com/mamuna36",
         linkedIn: "https://www.linkedin.com/in/mamunaanwar",
         email: "mamuna.anwar@gmail.com",
@@ -47,8 +48,9 @@ export const projectData = [
   },
   {
     projectTitle: "Mindchase-Website",
-    projectImage: "mobile version or logo",
-    summary: "jdabjjbifij xxi",
+    projectImage: "",
+    summary: "",
+    techStack: "/images/mindchase_techStack.png",
     link: "",
     frontendRepo: "",
     backendRepo: "",
@@ -78,8 +80,9 @@ export const projectData = [
   },
   {
     projectTitle: "mindchase-digital-campus",
-    projectImage: "mobile version or logo",
-    summary: "sjfbsudhknnclmlc",
+    projectImage: "",
+    techStack: "images/mindchase_techStack.png",
+    summary: "",
     link: "",
     frontendRepo: "",
     backendRepo: "",
@@ -101,7 +104,7 @@ export const projectData = [
       {
         name: "Fuad Abdullah",
         github: "https://github.com/fuad221",
-        linkedIn: "https://www.linkedin.com/feed/",
+        linkedIn: "https://www.linkedin.com/in/fuad02/",
         email: "fuad221@outlook.com",
         id: 2,
       },
@@ -116,11 +119,11 @@ export const projectData = [
   },
   {
     projectTitle: "YourMarket",
-    projectImage: "../../public/images/mohamed_yahya_ecommerce_project.png",
+    projectImage: "/images/mohamed_yahya_ecommerce_project.png",
     summary: "This is an e-commerce app.",
     link: "",
-    frontendRepo: "",
-    backendRepo: "",
+    frontendRepo: "https://github.com/mohamed-yahya-zakria/frontend",
+    backendRepo: "https://github.com/mohamed-yahya-zakria/backend",
     team: [
       {
         name: "Mohamed Yahya",
@@ -133,7 +136,7 @@ export const projectData = [
   },
   {
     projectTitle: "Market Royal",
-    projectImage: "",
+    projectImage: "/images/nour_din_e_commerce_project.png",
     summary:
       "online Market like eBay you can sell and buy products and mack your offer and bids",
     link: "",
